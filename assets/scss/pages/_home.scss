@@ -325,9 +325,9 @@ section.solution {
                         transform-origin: center;
                     }
                     &.triangle {
-                        width: 100px;
-                        height: 100px;
-                        right: -50px;
+                        width: 70px;
+                        height: 70px;
+                        right: -20px;
                         top: 90px;
                         transform-origin: center;
                         animation: rotating-animate 1.6s infinite alternate-reverse ease-in-out;
