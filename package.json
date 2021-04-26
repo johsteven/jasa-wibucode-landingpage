@@ -5,14 +5,12 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "purgecss": "purgecss --css assets/vendors/bootstrap/bootstrap.min.css --content index.html --output assets/vendors/bootstrap/bootstrap.min.css",
         "sass": "sass --watch assets/scss/main.scss assets/css/main.css --style compressed"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "purgecss": "^4.0.3",
         "sass": "^1.32.11"
     }
 }

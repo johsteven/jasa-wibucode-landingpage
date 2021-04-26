@@ -1,13 +1,13 @@
 .btn {
     border-radius: 7.5px;
-    transition: .3s;
+    transition: .225s;
     &-orange {
         background-color: $orange;
         &:hover {
             background-color: darken($orange, 10);
         }
         &:focus {
-            transform: scale(1.1);
+            transform: scale(1.05);
             box-shadow: none !important;
         }
     }
@@ -18,7 +18,7 @@
             background-color: darken($blue-gray, 10);
         }
         &:focus {
-            transform: scale(1.1);
+            transform: scale(1.05);
             box-shadow: none !important;
         }
     }

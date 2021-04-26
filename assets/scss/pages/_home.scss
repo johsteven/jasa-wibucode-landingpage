@@ -3,6 +3,7 @@ section {
     display: flex;
     align-items: center;
     .container {
+        padding: 0 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -405,8 +406,8 @@ section.portfolio {
         }
         .btn-outline-dark {
             font-weight: 500;
-            margin-top: 40px;
             border-radius: 5px;
+            margin-top: 40px;
             font-size: 14px;
             padding: .65rem 1.25rem;
         }
@@ -531,9 +532,28 @@ section.footer {
     section {
         margin-bottom: 100px;
     }
+    .about {
+        .container {
+            text-align: center !important;
+            .cards {
+                .card {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
     .why {
         .container {
             text-align: left !important;
+            .title {
+                text-align: center !important;
+            }
+            .items {
+                .item {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
         }
     }
 }
@@ -559,7 +579,7 @@ section.footer {
                 .cta {
                     display: block;
                     margin: auto !important;
-                    margin-bottom: 15px !important;
+                    margin-bottom: 25px !important;
                 }
             }
             .images {
@@ -587,15 +607,6 @@ section.footer {
             }
         }
     }
-    .about {
-        .container {
-            .cards {
-                .card {
-                    width: 100% !important;
-                }
-            }
-        }
-    }
     .solution {
         .container {
             text-align: left !important;
@@ -619,15 +630,16 @@ section.footer {
         .container {
             text-align: center !important;
             .portfolio-item {
+                margin-bottom: 70px !important;
                 img {
                     width: 100% !important;
                 }
                 h5 {
                     margin-top: 20px !important;
                 }
-                p {
-                    margin-bottom: 50px !important;
-                }
+            }
+            .btn-outline-dark {
+                margin-top: 0 !important;
             }
         }
     }
