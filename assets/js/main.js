@@ -11,7 +11,7 @@ function init() {
 }
 
 function load() {
-
+    AOS.init();
 }
 
 function eventListener() {}
