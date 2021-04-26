@@ -587,6 +587,15 @@ section.footer {
             }
         }
     }
+    .about {
+        .container {
+            .cards {
+                .card {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
     .solution {
         .container {
             text-align: left !important;
