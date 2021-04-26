@@ -35,6 +35,9 @@
             height: 17.5px;
         }
     }
+    &-collapse {
+        z-index: 99999999999999999;
+    }
     &-nav {
         .nav-item {
             margin-left: 30px;
