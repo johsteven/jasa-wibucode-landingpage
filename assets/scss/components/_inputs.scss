@@ -1,0 +1,26 @@
+.form-group {
+    height: 100%;
+    label {
+        margin-bottom: 10px;
+        font-size: 12.5px;
+        color: $font;
+    }
+    .input-group-text {
+        border-color: #f0f0f0;
+        background-color: #f0f0f0;
+        padding-left: 17.5px;
+    }
+    .form-control {
+        background-color: #f0f0f0;
+        border-color: #f0f0f0;
+        padding: 13.5px 12.5px;
+        font-size: 14px;
+        color: $blue-gray;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    textarea.form-control {
+        height: 100%;
+    }
+}
