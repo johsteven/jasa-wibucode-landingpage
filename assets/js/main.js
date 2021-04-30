@@ -11,7 +11,9 @@ function init() {
 }
 
 function load() {
-    AOS.init();
+    AOS.init({
+        once: true
+    });
 }
 
 function eventListener() {}
